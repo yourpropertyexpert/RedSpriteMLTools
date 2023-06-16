@@ -4,7 +4,7 @@
 use PHPUnit\Framework\TestCase;
 use redspritedemo\Demo;
 
-class DemoTest extends TestCase
+class SampleChatGPTTest extends TestCase
 {
     public function testGetResults()
     {
