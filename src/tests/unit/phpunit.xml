@@ -19,7 +19,7 @@
         pathCoverage="true"
     >
         <include>
-            <directory suffix=".php">/drone/src/src/front/classes/composerconfigurator</directory>
+            <directory suffix=".php">/drone/src/src/front/classes/redspritedemo</directory>
         </include>
         <report>
             <text outputFile="/drone/src/coverage.txt" showUncoveredFiles="false"/>
