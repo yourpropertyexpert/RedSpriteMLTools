@@ -1,0 +1,12 @@
+kind: pipeline
+type: docker
+name: Unit tests with coverage
+steps:
+- name: Unit tests for API with coverage
+  pull: if-not-exists
+  image: jitesoft/phpunit
+  commands:
+  - cd /drone/src/src/tests/unit
+  - export DRONE_DOC_ROOT=/drone/src
+  - php --version
+  - phpunit --testdox --coverage-text
