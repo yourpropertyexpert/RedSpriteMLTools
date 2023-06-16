@@ -4,7 +4,7 @@ namespace redspritedemo;
 
 use PHPUnit\Framework\TestCase;
 
-class DemoTest extends TestCase
+class SampleFromBardTest extends TestCase
 {
     public function testGetResults()
     {
