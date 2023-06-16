@@ -1,6 +1,6 @@
 <?php
 
-namespace redspritedemo\tests;
+namespace redspritedemo;
 
 use PHPUnit\Framework\TestCase;
 
